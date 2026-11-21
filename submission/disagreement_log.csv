@@ -1,0 +1,124 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,eye_left,khác giá trị (IoU=0.78),unknown,open,mine,4.5 + 4.4-1,"Peer đổi mắt thành unknown: đốm phản xạ kính/quay đầu, không thấy khe mắt"
+D01.png,face,eye_right,khác giá trị (IoU=0.78),unknown,open,mine,4.5 + 4.4-1,"Peer đổi mắt thành unknown: đốm phản xạ kính/quay đầu, không thấy khe mắt"
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D01.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D01.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,person,seatbelt,khác giá trị (IoU=0.87),worn_correct,unknown,mine,4.7,Peer đổi seatbelt=worn_correct: thấy rõ dải chéo từ vai xuống hông đối diện
+D02.png,face,eye_left,khác giá trị (IoU=0.75),unknown,open,mine,4.5 + 4.4-1,"Peer đổi mắt thành unknown: đốm phản xạ kính/quay đầu, không thấy khe mắt"
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D02.png,hand,on_wheel,khác giá trị (IoU=0.70),no,unknown,mine,4.7,"Peer đổi on_wheel=no: thấy rõ tay không chạm vô lăng (xe tự lái, bình thường)"
+D02.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D02.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D03.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.5,Peer thêm box face: vẫn thấy mắt và mũi dù cúi đầu
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D03.png,hand,on_wheel,khác giá trị (IoU=0.72),no,unknown,mine,4.7,"Peer đổi on_wheel=no: thấy rõ tay không chạm vô lăng (xe tự lái, bình thường)"
+D03.png,face13,count,khác số skeleton,1,0,mine,4.6,Peer thêm face13 (mặt rộng > 60 px)
+D04.png,hand,on_wheel,khác giá trị (IoU=0.56),unknown,yes,ambiguous,4.7,"Tay trái sát vành vô lăng, không thấy rõ có chạm: hỏi coach"
+D04.png,person,seatbelt,khác giá trị (IoU=0.86),worn_correct,unknown,mine,4.7,Peer đổi seatbelt=worn_correct: thấy rõ dải chéo từ vai xuống hông đối diện
+D04.png,face,eye_left,khác giá trị (IoU=0.62),unknown,open,mine,4.5 + 4.4-1,"Peer đổi mắt thành unknown: đốm phản xạ kính/quay đầu, không thấy khe mắt"
+D04.png,hand,on_wheel,khác giá trị (IoU=0.74),no,yes,mine,4.7,"Peer đổi on_wheel=no: thấy rõ tay không chạm vô lăng (xe tự lái, bình thường)"
+D04.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D04.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D04.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D04.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,Peer bật cờ outside: mắt phải bị sống mũi che hẳn khi quay đầu
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,Peer bật cờ outside: mắt phải bị sống mũi che hẳn khi quay đầu
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,Peer bật cờ outside: mắt phải bị sống mũi che hẳn khi quay đầu
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,Peer bật cờ outside: mắt phải bị sống mũi che hẳn khi quay đầu
+D04.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,person,seatbelt,khác giá trị (IoU=0.65),worn_correct,unknown,mine,4.7,Peer đổi seatbelt=worn_correct: thấy rõ dải chéo từ vai xuống hông đối diện
+D05.png,face,glasses,khác giá trị (IoU=0.81),sun,unknown,ambiguous,4.5,"Tròng tối trên NIR: sun hay unknown — đã đưa vào câu hỏi leo thang, chờ coach"
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D05.png,hand,on_wheel,khác giá trị (IoU=0.83),no,unknown,mine,4.7,"Peer đổi on_wheel=no: thấy rõ tay không chạm vô lăng (xe tự lái, bình thường)"
+D05.png,face13,left_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Peer bật cờ occluded: điểm bị phản xạ kính/chai/che nhưng đoán chắc vị trí
+D06.png,person,seatbelt,khác giá trị (IoU=0.83),worn_correct,unknown,mine,4.7,Peer đổi seatbelt=worn_correct: thấy rõ dải chéo từ vai xuống hông đối diện
+D06.png,face,eye_left,khác giá trị (IoU=0.75),closed,unknown,mine,4.5,Peer đổi eye=closed: thấy rõ hai mí khép
+D06.png,face,eye_right,khác giá trị (IoU=0.75),closed,unknown,mine,4.5,Peer đổi eye=closed: thấy rõ hai mí khép
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,mine,4.2,Peer thêm box hand cho bàn tay thấy được (side theo người)
+D06.png,hand,on_wheel,khác giá trị (IoU=0.72),no,unknown,mine,4.7,"Peer đổi on_wheel=no: thấy rõ tay không chạm vô lăng (xe tự lái, bình thường)"
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.82),no,unknown,mine,4.8,Peer đổi occupied=no: thấy rõ ghế trẻ em trống
+S01_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S01_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S01_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S02_ir.png,face,eye_left,khác giá trị (IoU=0.83),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_ir.png,face,eye_right,khác giá trị (IoU=0.83),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_ir.png,face,glasses,khác giá trị (IoU=0.83),none,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_ir.png,person,seatbelt,khác giá trị (IoU=0.98),not_worn,unknown,mine,4.7 + GUIDE 3,Peer đổi seatbelt=not_worn: thấy rõ không có dây (SVIRO chỉ not_worn/unknown)
+S02_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S02_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S02_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S02_rgb.png,face,eye_left,khác giá trị (IoU=0.84),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_rgb.png,face,eye_right,khác giá trị (IoU=0.84),open,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_rgb.png,face,glasses,khác giá trị (IoU=0.84),none,unknown,ambiguous,4.1,"OMS chỉ yêu cầu box face; giữ nguyên, không tính lỗi"
+S02_rgb.png,person,seatbelt,khác giá trị (IoU=0.98),not_worn,unknown,mine,4.7 + GUIDE 3,Peer đổi seatbelt=not_worn: thấy rõ không có dây (SVIRO chỉ not_worn/unknown)
+S02_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S03_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S03_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S03_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S03_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S04_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box face cho người lớn (OMS: person kèm box face)
+S04_ir.png,person,seatbelt,khác giá trị (IoU=0.97),not_worn,unknown,mine,4.7 + GUIDE 3,Peer đổi seatbelt=not_worn: thấy rõ không có dây (SVIRO chỉ not_worn/unknown)
+S04_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S04_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,"Peer thêm box object (mỗi đồ vật một box, seat theo xe)"
+S04_rgb.png,person,seatbelt,khác giá trị (IoU=0.98),not_worn,unknown,mine,4.7 + GUIDE 3,Peer đổi seatbelt=not_worn: thấy rõ không có dây (SVIRO chỉ not_worn/unknown)
+S04_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2,Peer thêm box face cho người lớn (OMS: person kèm box face)
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S05_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S05_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S05_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S05_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S05_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S05_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S06_ir.png,child_seat,occupied,khác giá trị (IoU=0.83),no,unknown,mine,4.8,Peer đổi occupied=no: thấy rõ ghế trẻ em trống
+S06_ir.png,object,type,khác giá trị (IoU=0.90),bag,other,mine,4.8 + 4.4-4,"Peer đổi type=bag: IR-sim thấy rõ hình ba lô (quai, túi trước)"
+S06_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S06_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S06_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S06_rgb.png,child_seat,occupied,khác giá trị (IoU=0.82),no,unknown,mine,4.8,Peer đổi occupied=no: thấy rõ ghế trẻ em trống
+S06_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.1 (wrong_class),Peer đổi child_seat thành infant_seat: vật trong ảnh là nôi xách có quai
+S07_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S07_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S07_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S07_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S07_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S07_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,mine,GUIDE 3 + 4.2,Peer xóa box person/face của trẻ em (guideline: không gán trẻ em); thay bằng child_seat/infant_seat của ghế đó
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.96),no,unknown,mine,4.8,Peer đổi occupied=no: thấy rõ ghế trẻ em trống
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)
+S08_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S08_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.2 / 4.1,"Peer thêm box infant_seat (nôi xách) với seat theo xe, facing"
+S08_rgb.png,child_seat,occupied,khác giá trị (IoU=0.96),no,unknown,mine,4.8,Peer đổi occupied=no: thấy rõ ghế trẻ em trống
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer thêm box child_seat cho ghế trẻ em (mỗi ghế có vật một box)

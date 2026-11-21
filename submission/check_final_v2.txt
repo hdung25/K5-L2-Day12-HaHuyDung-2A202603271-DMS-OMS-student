@@ -1,0 +1,11 @@
+File: work/export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=10, face13=6, hand=12, infant_seat=10, object=8, person=10, phone=1
+  [WARN] D03.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo còn lại:
+- [WARN] D03.png left_eye_outer nằm bên trái ảnh so với right_eye_outer: ảnh Drive&Act xoay ~90°, hai mắt xếp theo trục y. Kiểm bằng trục y: left_eye_outer (y=528) > right_eye_outer (y=398), đúng quy ước GUIDE 4.4-2 / 4.6. Giữ nguyên.
+
+Thay đổi so với export_final.zip:
+- labels_cabin_v1.json mới: child_seat.occupied có thêm 'yes' → S03 (rear_left), S05 (rear_right, rear_left) đổi occupied unknown → yes (cả RGB và IR). cabin_schema.py đã cập nhật cho khớp.
+- Sau review chéo (Triệu Hoàng Hiếu): S04 box face ôm sát phần mặt thấy được (4.4-5); D01 bỏ cờ occluded ở 4 điểm miệng/môi (4.6).
