@@ -102,6 +102,3 @@ Nhóm 3 người cùng mã G01 chấm theo vòng **Quốc Anh → Hiếu → Dũ
 - Trên NIR thật, nguyên nhân chính khiến mắt thành `unknown` là phản xạ đèn LED trên kính. Không thấy mắt thì ghi `unknown`, không ghi `closed`.
 - Lỗi tôi hay mắc là bỏ sót hoặc chép thuộc tính ở vùng quá tối hay cháy sáng (xem `self_review.md`). Cách khắc phục: luôn chỉnh brightness hiển thị và đọc lại từng thuộc tính sau khi copy shape.
 
-## 9. Công cụ AI đã dùng
-
-- **Claude Code (Anthropic, model Claude Opus 5.5):** hỗ trợ gán nhãn và đưa nhãn vào CVAT, chạy và đọc kết quả `cabin_check`, viết nháp các tài liệu nộp. Khai báo chi tiết trong `prompts.md`.
