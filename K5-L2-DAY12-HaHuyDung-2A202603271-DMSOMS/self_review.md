@@ -8,7 +8,7 @@ Loại lỗi: `seat_flip`, `wrong_class`, `guess`, `box`, `missing`, `extra`, `l
 |---|---|---|---|---|
 | S01_rgb | child_seat rear_left | guess | Lúc đầu định chép `occupied = no` từ S01_ir; trên RGB ghế chìm trong bóng tối, không thấy bên trong → đổi thành `unknown` (4.4-1: không suy từ ảnh kia) | Có |
 | S06_rgb | object rear_middle | ok | RGB tối, không rõ hình → `type = other`; IR-sim thấy ba lô → `bag`. Hai ảnh khác nhau là đúng | — |
-| D05 | face.glasses | guess | Đầu tiên để `unknown`; xem lại thấy tròng tối, không nhìn xuyên được tới mắt (khác kính cận D02/D03) → `sun`, mắt `unknown`; đưa vào câu hỏi leo thang | Có |
+| D05 | face.glasses | guess | Mình đã đổi sang `sun` vì tròng tối. Sau review chéo, mình thấy chỉ dựa vào độ tối của tròng trên NIR là chưa đủ chắc → về lại `unknown` (4.5) | Có |
 | D06 | hand trái | missing | Bàn tay trái bị đèn NIR làm cháy sáng nên lúc đầu bỏ qua; xem lại thấy rõ đường viền bàn tay nối với cổ tay áo → thêm `hand` (left, on_wheel = no) | Có |
 
 ## 2. Lỗi mình lặp lại nhiều nhất hôm nay

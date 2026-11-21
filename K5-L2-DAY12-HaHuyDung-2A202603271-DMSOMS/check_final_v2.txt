@@ -7,5 +7,9 @@ Giải thích cảnh báo còn lại:
 - [WARN] D03.png left_eye_outer nằm bên trái ảnh so với right_eye_outer: ảnh Drive&Act xoay ~90°, hai mắt xếp theo trục y. Kiểm bằng trục y: left_eye_outer (y=528) > right_eye_outer (y=398), đúng quy ước GUIDE 4.4-2 / 4.6. Giữ nguyên.
 
 Thay đổi so với export_final.zip:
-- labels_cabin_v1.json mới: child_seat.occupied có thêm 'yes' → S03 (rear_left), S05 (rear_right, rear_left) đổi occupied unknown → yes (cả RGB và IR). cabin_schema.py đã cập nhật cho khớp.
-- Sau review chéo (Triệu Hoàng Hiếu): S04 box face ôm sát phần mặt thấy được (4.4-5); D01 bỏ cờ occluded ở 4 điểm miệng/môi (4.6).
+- labels_cabin_v1.json mới: child_seat.occupied có thêm 'yes' → S03 (rear_left), S05 (rear_right, rear_left) đổi occupied unknown → yes (cả RGB và IR). cabin_schema.py cập nhật cho khớp.
+- Sau review chéo của Triệu Hoàng Hiếu (disagreement_log_hieu.csv):
+  - S04 (RGB + IR): box face thu sát phần mặt thấy được, bỏ tóc (4.4-5).
+  - D01: bỏ cờ occluded ở 4 điểm miệng/môi, vẫn thấy dưới râu (4.6).
+  - D02: mouth_right, lip_upper, lip_lower → outside, chai che kín (4.6).
+  - D05: glasses sun → unknown, không đủ chắc từ độ tối tròng NIR (4.5).

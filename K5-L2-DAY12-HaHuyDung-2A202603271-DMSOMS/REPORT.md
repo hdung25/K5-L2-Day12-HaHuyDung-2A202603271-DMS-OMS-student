@@ -39,7 +39,7 @@ Các điểm chính:
 | D02 | uống nước | worn_correct | unknown / unknown (phản xạ kính) | clear | other | phải cầm chai, trái cầm thẻ | — |
 | D03 | đang thắt dây | unknown (thắt dở) | unknown / unknown | clear | lap | hai tay ở khóa dây | — |
 | D04 | quay đầu sang phải | worn_correct | unknown / unknown | clear | other | phải (no), trái (unknown) | — |
-| D05 | gọi điện | worn_correct | unknown / unknown | sun | other | phải áp tai, trái trên đùi | held |
+| D05 | gọi điện | worn_correct | unknown / unknown | unknown | other | phải áp tai, trái trên đùi | held |
 | D06 | mắt nhắm, cầm đồ | worn_correct | closed / closed | none | other | phải (no), trái (no, cháy sáng) | — |
 
 - **face13:** tôi vẽ đủ 13 điểm trên cả 6 khung, vì mọi mặt đều rộng hơn 60 px. Điểm bị phản xạ kính, chai nước hoặc râu che thì đánh `occluded`. Mắt phải của D04 bị sống mũi che hẳn nên đánh `outside`.
@@ -68,7 +68,7 @@ File `export_final.zip` và `export_final_v2.zip` được export theo định d
 
 **IR thật (D##):**
 - Đốm phản xạ LED trên tròng kính che mắt (D02, D04) → mắt `unknown`, điểm mắt đánh `occluded`.
-- Tròng kính hiện tối, không nhìn xuyên được (D05) → `glasses = sun`, mắt `unknown`.
+- Tròng kính hiện tối, không nhìn xuyên được (D05) → không đủ chắc là kính râm hay kính thường, nên `glasses = unknown`, mắt `unknown`.
 - Bàn tay ở gần đèn LED bị cháy sáng (D06) → vẫn vẽ `hand` theo đường viền, không vẽ `phone`.
 - Vùng ngực tối nên không phân biệt được dây an toàn với áo (D01) → `seatbelt = unknown`.
 
@@ -83,16 +83,18 @@ Chi tiết nằm trong `class_list_v0.md`: 8 lớp/thuộc tính DMS và 7 lớp
 
 Nhóm 3 người cùng mã G01 chấm theo vòng **Quốc Anh → Hiếu → Dũng → Quốc Anh**.
 
-- **Tôi chấm bài Dương Quốc Anh** (`disagreement_log.csv`, 123 dòng): 115 dòng tôi đúng theo guideline, 8 dòng mơ hồ cần hỏi coach. Lỗi chính trong bài Quốc Anh:
+- **Tôi chấm bài Dương Quốc Anh** (`disagreement_log.csv`, 121 dòng, đối chiếu với bản `G01_current_schema` của Quốc Anh): 114 dòng tôi đúng theo guideline, 7 dòng mơ hồ. Lỗi chính trong bài Quốc Anh:
   - Gán trẻ em thành `person` / `face` (S03, S05, S07), trong khi GUIDE 3 yêu cầu không gán trẻ em.
   - Nhầm nôi xách thành `child_seat` (S01, S02, S06).
   - Thiếu box `object` (S03, S04).
   - Ghi mắt `open` khi đốm phản xạ kính che mắt (D01, D02, D04), trái 4.4-1.
   - Thiếu cờ `occluded` ở các điểm mắt (4.6).
   - Ghi `seatbelt = unknown` khi dây thấy rõ (4.7).
-- **Triệu Hoàng Hiếu chấm bài tôi** (`disagreement_log_hieu.csv`, 46 dòng): 24 dòng tôi giữ nguyên, 14 dòng mơ hồ, 8 dòng Hiếu đúng. Tôi đã sửa:
+- **Triệu Hoàng Hiếu chấm bài tôi** (`disagreement_log_hieu.csv`, 52 dòng, có thêm cột phản hồi của tôi): tôi sửa theo 21 dòng, giữ nguyên 31 dòng có ghi lý do. Tôi đã sửa:
   - Box `face` S04 ôm sát phần mặt thấy được (4.4-5).
   - Bỏ cờ `occluded` ở 4 điểm miệng/môi D01 (4.6).
+  - D02: 3 điểm miệng bị chai che kín → `outside` (4.6).
+  - D05: `glasses` từ `sun` → `unknown` (4.5).
 - **Đề mới:** cập nhật `occupied = yes` cho S03 và S05.
 - Tôi export lại thành `export_final_v2.zip`; `check_final_v2.txt` báo 0 lỗi.
 

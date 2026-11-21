@@ -37,4 +37,4 @@ Viết tiếp từ slide 54 bài giảng. Mỗi lớp trả lời: **model cần
    **Khung ví dụ:** G01 S07 (em bé nhìn thẳng vào camera, rear_middle), S08 (rear_right), S01 / S06 (nôi trống, miệng nôi hướng camera).
    **Tạm gán thế nào và vì sao:** `facing = front` cho cả 5 nôi, theo hướng em bé nhìn so với xe (gọi theo xe, 4.4-3). Cần người viết guideline xác nhận `facing` mô tả hướng em bé (như mình gán) hay hướng lưng nôi.
 
-(Câu phụ) Trên NIR, tròng kính hiện tối và không nhìn xuyên được (G01 D05) có nên ghi `glasses = sun` không, khi guideline nói kính râm trên NIR "có thể trông trong suốt"? Tạm ghi `sun`, mắt `unknown`.
+(Câu phụ) Trên NIR, tròng kính hiện tối và không nhìn xuyên được (G01 D05): có nên có giá trị riêng kiểu "kính, không rõ loại" thay vì `unknown`? Tạm ghi `glasses = unknown`, mắt `unknown`.
